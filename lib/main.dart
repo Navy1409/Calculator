@@ -24,13 +24,17 @@ class _MyAppState extends State<MyApp> {
         ),
         body: SingleChildScrollView(
           child: Container(
-            decoration: BoxDecoration(
-              color: Colors.black
-            ),
+              color: Colors.black,
             child: Column(
               children: [
-                Container(),
-                Container(),
+                Container(
+                  height: 100,
+                  child: Text("0",style: TextStyle(color: Colors.white, fontSize: 30),),
+                ),
+                Container(
+                  height: 100,
+                  child: Text("0",style: TextStyle(color: Colors.white, fontSize: 30),),
+                ),
                 Column(
                   children: [
                     Row(),
